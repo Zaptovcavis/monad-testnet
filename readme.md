@@ -8,7 +8,7 @@ Monad Testnet bot. Multi-thread, multi-account and proxy suppported.
 Clone this repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/
+git clone https://github.com/Zaptovcavis/monad-testnet.git
 cd monad-testnetbot
 ```
 
