@@ -19,10 +19,23 @@ cd monad-testnetbot
    ```
 
 ## Configuration
+**For multi-thread mode:**
 
 1.  **Add Private keys to `wallet.txt`**
 
 2. **Add proxy to `proxy.txt`** file
+
+**For single-thread mode:**
+
+1.  **Rename `.env.example` to .env**
+   ```bash
+    cp .env.example .env
+   ```
+
+2. **Edit the `.env` file Replace your_evm_private_key with your actual EVM wallet private key**
+   ```bash
+    PRIVATE_KEY=0x1234...
+   ```
 
 ## Usage
 
